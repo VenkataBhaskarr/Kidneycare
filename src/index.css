@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    color: floralwhite;
+    background: black;
+    /*font-family: 'Arial', sans-serif;*/
+    font-family: "PT Mono", sans-serif;
+    /*"PT Mono", sans-serif*/
+}
+img {
+    transition: transform 0.5s ease;
+}
+img:hover {
+    transform: scale(1.2); /* You can adjust the scaling factor as needed */
+}
+.special:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+.footer{
+    font-weight: bold;
+}
+
+.under:hover {
+    color: deeppink;
+    cursor: pointer;
+    /*text-decoration-line: underline;*/
+}
