@@ -20,7 +20,7 @@ function Testyourkidneys(){
             formData.append("image", selectedFile);
 
             // Send POST request with FormData
-            axios.post("http://localhost:5000/predict", formData)
+            axios.post("http://3.110.184.69:5000/predict",  formData)
                 .then((res) => { setStonedata(res.data.prediction) })
                 .catch((err) => { console.log("Error posting data:", err) });
         } else {
