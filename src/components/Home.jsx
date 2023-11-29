@@ -7,38 +7,38 @@ function Home(){
     const [news4, setNews4] = useState("Irrational and prolonged use of medicines may damage kidneys.")
     const [news5, setNews5] = useState("PGI Chandigarh gets kidney diseases research laboratory.")
     const [news6, setNews6] = useState("Mumbai doctors link fairness cream to kidney illness in family.")
-    // useEffect(() => {
-    //     axios.post("https://python-secret.onrender.com/message", "Tell the latest news happening in the field of kidney health in 20 words", {
-    //         headers : {
-    //             "Content-Type": "application/json"
-    //         },
-    //     }).then((res) => setNews1(res.data))
-    //     axios.post("https://python-secret.onrender.com/message", "Tell the latest news happening in the field of kidney health in 20 words", {
-    //         headers : {
-    //             "Content-Type": "application/json"
-    //         },
-    //     }).then((res) => setNews2(res.data))
-    //     axios.post("https://python-secret.onrender.com/message", "Tell the latest news happening in the field of kidney health in 20 words", {
-    //         headers : {
-    //             "Content-Type": "application/json"
-    //         },
-    //     }).then((res) => setNews3(res.data))
-    //     axios.post("https://python-secret.onrender.com/message", "Tell the latest news happening in the field of kidney health in 20 words", {
-    //         headers : {
-    //             "Content-Type": "application/json"
-    //         },
-    //     }).then((res) => setNews4(res.data))
-    //     axios.post("https://python-secret.onrender.com/message", "Tell the latest news happening in the field of kidney health in 20 words", {
-    //         headers : {
-    //             "Content-Type": "application/json"
-    //         },
-    //     }).then((res) => setNews5(res.data))
-    //     axios.post("https://python-secret.onrender.com/message", "Tell the latest news happening in the field of kidney health in 20 words", {
-    //         headers : {
-    //             "Content-Type": "application/json"
-    //         },
-    //     }).then((res) => setNews6(res.data))
-    // },[])
+    useEffect(() => {
+        axios.post("https://python-secret.onrender.com/message", "Tell the latest news happening in the field of kidney health in 20 words", {
+            headers : {
+                "Content-Type": "application/json"
+            },
+        }).then((res) => setNews1(res.data))
+        axios.post("https://python-secret.onrender.com/message", "Tell the latest news happening in the field of kidney health in 20 words", {
+            headers : {
+                "Content-Type": "application/json"
+            },
+        }).then((res) => setNews2(res.data))
+        axios.post("https://python-secret.onrender.com/message", "Tell the latest news happening in the field of kidney health in 20 words", {
+            headers : {
+                "Content-Type": "application/json"
+            },
+        }).then((res) => setNews3(res.data))
+        axios.post("https://python-secret.onrender.com/message", "Tell the latest news happening in the field of kidney health in 20 words", {
+            headers : {
+                "Content-Type": "application/json"
+            },
+        }).then((res) => setNews4(res.data))
+        axios.post("https://python-secret.onrender.com/message", "Tell the latest news happening in the field of kidney health in 20 words", {
+            headers : {
+                "Content-Type": "application/json"
+            },
+        }).then((res) => setNews5(res.data))
+        axios.post("https://python-secret.onrender.com/message", "Tell the latest news happening in the field of kidney health in 20 words", {
+            headers : {
+                "Content-Type": "application/json"
+            },
+        }).then((res) => setNews6(res.data))
+    },[])
     return(
         <div>
             <div className={"flex items-center justify-between mt-48"}>
