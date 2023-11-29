@@ -45,9 +45,9 @@ function Testyourkidneys(){
                         <div className={"mt-12"}>
                             It seems like your kidney CT scans are/contains <span className={"text-pink-700"}>{stonedata}</span>
                         </div>
-                        <div className={"mt-8"}>
+{/*                         <div className={"mt-8"}>
                             <button onClick={() => {navigate("getintouch")}} className={"bg-white rounded-lg p-2 text-black special w-48"}>Get in touch</button>
-                        </div>
+                        </div> */}
                     </div>
             }
             <div className={"mt-28"}>
